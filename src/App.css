@@ -1,0 +1,27 @@
+body{
+
+  background-color: #88888846;
+
+  #root{
+
+    div{
+      display: flex;
+      flex-wrap: wrap;
+      padding: 2rem;
+      flex: 1 250px;
+    }
+  }
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  padding: 2em;
+  background-color: #88888846;
+  border-radius: 10px;
+
+  img{
+    width: 10rem;
+  }
+}
